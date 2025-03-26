@@ -1,5 +1,4 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
+cat << 'EOF' > .gitignore
 # dependencies
 node_modules/
 
@@ -31,6 +30,14 @@ yarn-error.*
 
 # local env files
 .env*.local
+.env
 
 # typescript
 *.tsbuildinfo
+
+# React Native / Android
+android/app/build/
+android/.gradle/
+*.apk
+android/gradle.properties
+EOF

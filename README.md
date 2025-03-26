@@ -1,7 +1,7 @@
-# AI powered measurement conversion
+# Precision Baking: AI for Accurate Ingredient Measurement in Grams
 
-An AI powered cross platform mobile application that converts ambigious measurements like cups, teaspoon into precise 
-grams
+An AI powered cross platform mobile application that converts ambigious measurements like cups, teaspoon, tablespoon into precise 
+grams.
 
 
 ![W1 (1)](https://github.com/user-attachments/assets/ff3a0b45-7605-4d32-ae12-4f56cf455432)

@@ -46,18 +46,18 @@ Distributed under MIT license.
 ## Contact
 
 1. Varad Hajare -
-<br>https://github.com/VaradHajare<br>
-varadhajare02@gmail.com
+<br>Profile: https://github.com/VaradHajare<br>
+Gmail: varadhajare02@gmail.com
 
 2. Sahil Singh -
-<br>https://github.com/Kaizoya<br>
-sahilssingh555@gmail.com
+<br>Profile: https://github.com/Kaizoya<br>
+Gmail: sahilssingh555@gmail.com
 
 3. Zaid Khatri -
-<br>https://github.com/zaidkhatri-dev<br>
-zaid.abdulgani.khatri@gmail.com
+<br>Profile: https://github.com/zaidkhatri-dev<br>
+Gmail: zaid.abdulgani.khatri@gmail.com
 
 4. Soham Walhekar -
-<br>https://github.com/walhekarsoham2<br>
-walhekarsoham07@gmail.com
+<br>Profile: https://github.com/walhekarsoham2<br>
+Gmail: walhekarsoham07@gmail.com
 

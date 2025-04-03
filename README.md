@@ -4,8 +4,9 @@ An AI powered cross platform mobile application that converts ambigious measurem
 grams.
 
 
-![W1 (1)](https://github.com/user-attachments/assets/ff3a0b45-7605-4d32-ae12-4f56cf455432)
-![w2 (1)](https://github.com/user-attachments/assets/5cb07e8a-e1ca-48cd-a6f8-274c799bc5dd)
+![WhatsApp Image 2025-04-03 at 11 28 14_43b16746](https://github.com/user-attachments/assets/8240417b-13e4-473c-854f-5b04a4671d1a) 
+![WhatsApp Image 2025-04-03 at 11 28 15_bb984717](https://github.com/user-attachments/assets/69c7c628-5016-4e32-9a09-4f221b7c49e2)
+
 
 
 ## About

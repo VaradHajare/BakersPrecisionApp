@@ -48,17 +48,21 @@ Distributed under MIT license.
 
 1. Varad Hajare -
 <br>Profile: https://github.com/VaradHajare<br>
-Gmail: varadhajare02@gmail.com
+Gmail: varadhajare02@gmail.com<br>
+LinkedIn: https://www.linkedin.com/in/varad-hajare-420b2b321/ 
 
-2. Sahil Singh -
+3. Sahil Singh -
 <br>Profile: https://github.com/Kaizoya<br>
-Gmail: sahilssingh555@gmail.com
+Gmail: sahilssingh555@gmail.com<br>
+LinkedIn: https://www.linkedin.com/in/sahil-singh-7b9487297/
 
-3. Zaid Khatri -
+5. Zaid Khatri -
 <br>Profile: https://github.com/zaidkhatri-dev<br>
-Gmail: zaid.abdulgani.khatri@gmail.com
+Gmail: zaid.abdulgani.khatri@gmail.com<br>
+LinkedIn: https://www.linkedin.com/in/zaid-khatri-dev/
 
-4. Soham Walhekar -
+7. Soham Walhekar -
 <br>Profile: https://github.com/walhekarsoham2<br>
-Gmail: walhekarsoham07@gmail.com
+Gmail: walhekarsoham07@gmail.com<br>
+LinkedIn: https://www.linkedin.com/in/soham-walhekar/
 

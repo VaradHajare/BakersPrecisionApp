@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { View, TouchableOpacity, Text } from 'react-native';
+import { View, TouchableOpacity, Text, ScrollView } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context'; // Import SafeAreaView
 import Header from '../components/Header';
 import Converter from '../components/Converter';
 import styles from '../styles/styles';
@@ -46,7 +47,6 @@ export default function HomeScreen({ navigation, route }) {
           dataset,
           GEMINI_API_KEY,
           (sub) => {
-            // Ensure sub is a string
             const safeSub = typeof sub === 'string' ? sub : String(sub);
             setSubstitution(safeSub);
             setCache((prev) => ({
@@ -55,7 +55,6 @@ export default function HomeScreen({ navigation, route }) {
             }));
           },
           (nut) => {
-            // Ensure nut is a string
             const safeNut = typeof nut === 'string' ? nut : String(nut);
             setNutrition(safeNut);
             setCache((prev) => ({
@@ -71,22 +70,27 @@ export default function HomeScreen({ navigation, route }) {
   };
 
   return (
-    <View style={[styles.scrollContainer, { paddingVertical: 10 }]}>
-      <Header />
-      <Converter dataset={dataset} onConvert={handleConvert} />
-      {result && (
-        <View style={[styles.outputContainer, { marginTop: 0 }]}>
-          <Text style={styles.result}>{result}</Text>
-          {substitution && <Text style={styles.result}>{substitution}</Text>}
-          {nutrition && <Text style={styles.result}>{nutrition}</Text>}
-        </View>
-      )}
+    <SafeAreaView style={styles.container}>
+      <ScrollView
+        style={styles.scrollContainer}
+        contentContainerStyle={styles.scrollContent}
+      >
+        <Header />
+        <Converter dataset={dataset} onConvert={handleConvert} />
+        {result && (
+          <View style={[styles.outputContainer, { marginTop: 0 }]}>
+            <Text style={styles.result}>{result}</Text>
+            {substitution && <Text style={styles.result}>{substitution}</Text>}
+            {nutrition && <Text style={styles.result}>{nutrition}</Text>}
+          </View>
+        )}
+      </ScrollView>
       <TouchableOpacity
         style={styles.chatButton}
         onPress={() => navigation.navigate('Chat', { geminiKey: GEMINI_API_KEY })}
       >
         <Text style={styles.chatButtonText}>💬</Text>
       </TouchableOpacity>
-    </View>
+    </SafeAreaView>
   );
 }

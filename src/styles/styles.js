@@ -1,11 +1,19 @@
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#f0f2f5', // Already set
+  },
   scrollContainer: {
-    flexGrow: 1,
-    paddingVertical: 0,
+    flex: 1,
+    backgroundColor: '#f0f2f5', // Match the container background color
+  },
+  scrollContent: {
+    paddingVertical: 20,
     paddingHorizontal: 20,
-    backgroundColor: '#f0f2f5',
+    paddingBottom: 100, // Increased to ensure content doesn’t overlap with chat button
+    flexGrow: 1, // Allow the content to grow dynamically and trigger scrolling
   },
   header: {
     alignItems: 'center',
@@ -92,8 +100,9 @@ export default StyleSheet.create({
   result: {
     fontSize: 16,
     color: '#2c3e50',
-    textAlign: 'center',
+    textAlign: 'left',
     marginVertical: 5,
+    lineHeight: 24,
   },
   chatScreenContainer: {
     flex: 1,
@@ -139,7 +148,7 @@ export default StyleSheet.create({
     fontSize: 16,
   },
   boldText: {
-    fontWeight: 'bold', // Makes text bold
+    fontWeight: 'bold',
   },
   loadingText: {
     fontSize: 14,
@@ -188,19 +197,19 @@ export default StyleSheet.create({
     bottom: 20,
     right: 20,
     backgroundColor: '#3498db',
-    width: 50,
-    height: 50,
-    borderRadius: 25,
+    width: 60,
+    height: 60,
+    borderRadius: 30,
     justifyContent: 'center',
     alignItems: 'center',
     shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
+    shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.3,
-    shadowRadius: 4,
-    elevation: 5,
+    shadowRadius: 6,
+    elevation: 8,
   },
   chatButtonText: {
-    fontSize: 24,
+    fontSize: 28,
     color: '#ffffff',
   },
   outputContainer: {
@@ -213,6 +222,7 @@ export default StyleSheet.create({
     shadowRadius: 8,
     elevation: 5,
     padding: 15,
+    marginBottom: 20,
   },
   dropdownList: {
     height: 150,
